@@ -1,0 +1,186 @@
+
+.a2 {
+   width: auto;
+   height: 200px;
+   background-image: url(../../image/slides2.webp);
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   border-radius: 10px;
+   padding-top: 10px;
+}
+.a3 {
+    width: 100%;
+    height: 200px;
+    background-image: url(../../image/slider3.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.a4 {
+    width: 100%;
+    height: 200px;
+    background-image: url(../../image/Sliders1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.a5 {
+    width: 100%;
+    height: 200px;
+    background-image: url(../../image/slider4.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.trending {
+    padding: 20px 30px;
+    width:100%;
+}
+.trending .container {
+    max-width: 100%;
+    display: flex;
+}
+.trending .container .left_box {
+    padding: 10px 20px;
+    width: 100%;
+}
+.trending .container .left_box .header{
+    display: flex;
+    max-width: 100%;
+    padding: 20px 20px;
+    background:rgb(13, 160, 128);
+    justify-content: space-between;
+}
+.trending .container .left_box .header .heading h6 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: black;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.trending .container .left_box .header .uiv{
+    display: flex;
+    margin-top: 5px;
+}
+.trending .container .left_box .header .uiv h3{
+    text-transform: capitalize;
+    margin-right: 10px;
+    color:white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.trending .container .left_box .header .uiv h3:hover{
+    color:black;
+}
+.trending .container .left_box .products {
+    max-width: 100%;
+}
+.trending .container .left_box .products .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.trending .container .left_box .products button {
+    margin-top: 20px;
+    margin-left: 45%;
+    padding: 10px 30px;
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 600;
+    background: rgb(13, 160, 128);
+    cursor: pointer;
+}
+.trending .container .left_box .products .container .box {
+    width: 195px;
+    height: 295px;
+    border: 4px solid rgb(13, 160, 128);
+    margin-top: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.trending .container .left_box .products .container .box .img_box {
+    display: flex;
+    justify-content: center;
+}
+.trending .container .left_box .products .container .box .img_box img {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+}
+.trending .container .left_box .products .container .box .img_box .icon{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.trending .container .left_box .products .container .box:hover .img_box .icon{
+    margin-left: -34%;
+}
+.trending .container .left_box .products .container .box .img_box .icon .icon_box{
+    padding: 10px 10px;
+    margin-top: 10px;
+    box-shadow:  rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 1;
+    background: white;
+    color:rgb(13, 160, 128);
+    cursor: pointer;
+}
+.trending .container .left_box .products .container .box .info {
+    padding: 10px 10px;
+    margin-left: 10px;
+}
+.trending .container .left_box .products .container .box .info h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.trending .container .left_box .products .container .box .info p {
+    color: rgb(13, 160, 128);
+    margin-top: 5px;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.trending .container .left_box .products .container .box .info .btn {
+    margin-top: 3px;
+    align-items: center;
+    padding: 5px 10px;
+    margin-left: 20px;
+    border: none;
+    background: none;
+    outline: none;
+    background:rgb(13, 160, 128);
+    color:black;
+    text-transform:  capitalize;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.trending .container .mid_box {
+    align-items: center;
+    
+}
+.trending .container .mid_box .mid_container{
+    max-width: 100%;
+}
+
+.trending .container .mid_box .mid_container .testimonial{
+    width: 100%;
+    border: 4px solid rgb(13, 160, 128);
+}
+.trending .container .mid_box .mid_container .testimonial .head {
+    padding: 10px 10px;
+    width: 100%;
+}

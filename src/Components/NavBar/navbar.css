@@ -1,0 +1,146 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Jacquard 24;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+}
+.header .top_head {
+    max-width: 100%;
+    display: flex;
+    padding: 20px 20px;
+    background: rgb(13, 160, 128);
+}
+.header .top_head .icon {
+    margin-left: 10px;
+    color:rgb(142, 32, 15);
+    font-size: 25px;
+}
+.header .top_head .info p {
+    margin-left: 20px;
+    color:black;
+}
+.header .mid_header {
+    display: flex;
+    padding: 20px 30px;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.header .mid_header .logo img {
+    cursor: pointer;
+    width: 150px;
+}
+.header .mid_header .search_box input {
+    padding: 15px 20px;
+    outline: none;
+    background:none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-radius: 10px;
+    width: 250px;
+    background: white;
+}
+.header .mid_header .search_box button {
+    padding: 15px 20px;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-right: 30px;
+    cursor: pointer;
+    border: none;
+    background:rgb(13, 160, 128);
+    transition: 0.5s;
+    font-weight: 500;
+}
+.header .mid_header .search_box button:hover {
+    background: aquamarine;
+    color:rgb(142, 32, 15);
+}
+.header .mid_header .user {
+    display:flex;
+    margin-right: 50px;
+}
+.header .mid_header .user .icon{
+    margin-right: 10px;
+}
+.header .mid_header .user .btn button {
+    border: none;
+    outline: none;
+    font-size: 17px;
+    background: none;
+    cursor: pointer;
+}
+.header .last_header{
+    width: 100%;
+    padding: 10px 10px;
+    display: flex;
+    background: rgb(32, 32, 32);
+    justify-content: space-between;
+}
+.header .last_header .user_profile{
+    display: flex;
+    margin-top: 10px;
+}
+.header .last_header .user_profile .icon {
+    padding: 10px 10px;
+    border-radius: 10px;
+    color:rgb(13, 160, 128);
+    cursor: pointer;
+}
+.header .last_header .user_profile .info
+{
+    margin-left: 10px;
+}
+.header .last_header .user_profile .info h2
+{
+    color: #fff;
+    font-size: 18px;
+}
+.header .last_header .user_profile .info p
+{
+    color: #ababab;
+    font-size: 14px;
+}
+.header .last_header .nav
+{
+    margin-top: 15px;
+}
+.header .last_header .nav ul
+{
+    display: flex;
+    justify-content: center;
+}
+.header .last_header .nav ul li
+{
+    list-style: none;
+}
+.header .last_header .nav ul li .link
+{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.header .last_header .nav ul li .link:hover
+{
+    color: rgb(13, 160, 128);
+}
+.header .last_header .offer
+{
+    margin-right: 20px;
+    padding: 10px 20px;
+    background: rgb(13, 160, 128);
+    border-radius: 10px;
+}
+.header .last_header .offer p
+{
+    margin-top: 5px;
+    text-transform: uppercase;
+    color: #232323;
+    font-weight: 600;
+    font-size: 14px;
+}
